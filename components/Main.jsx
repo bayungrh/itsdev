@@ -83,6 +83,7 @@ function MainComponent(props) {
   }
 
   useEffect(function() {
+    // eslint-disable-next-line no-undef
     new Typed('.typed', {
       strings: ["myname", "bayu", "nugraha"],
       typeSpeed: 150,
